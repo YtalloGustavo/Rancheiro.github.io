@@ -1,0 +1,85 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+/* Estilo do conteúdo principal */
+.content {
+    width: 900px;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.content h1 {
+    padding: 30px;
+}
+
+/* Estilos da tabela */
+.tabela-relatorio {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.tabela-relatorio th,
+.tabela-relatorio td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+.tabela-relatorio th {
+    background-color: #888;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tabela-relatorio tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.tabela-relatorio tbody tr:nth-child(odd) {
+    background-color: #d0d0d0;
+}
+
+.tabela-relatorio tbody tr:hover {
+    background-color: #888;
+    color: blue;
+}
+
+/* Estilo dos botões de ação na tabela */
+.tabela-relatorio .editar {
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+.tabela-relatorio .editar:hover {
+    background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+}
+
+.tabela-relatorio .excluir {
+    background-color: #f44336; /* Vermelho */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.tabela-relatorio .excluir:hover {
+    background-color: #da190b; /* Vermelho mais escuro ao passar o mouse */
+}
+

@@ -1,0 +1,52 @@
+.corpo {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.relatorio-conteudo {
+    width: 900px;
+    margin: 30px auto;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+.relatorio-conteudo h1 {
+    padding: 30px;
+}
+
+/* Estilos da tabela */
+.tabela-relatorio {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ccc;
+}
+
+.tabela-relatorio th,
+.tabela-relatorio td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    background-color: #f4f4f4;
+}
+
+.tabela-relatorio th {
+    background-color: #888;
+    font-weight: bold;
+    color: #fff;
+}
+
+.tabela-relatorio tbody tr:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+.tabela-relatorio tbody tr:nth-child(odd) {
+    background-color: #d0d0d0;
+}
+
+.tabela-relatorio tbody tr:hover {
+    background-color: #888;
+    color: blue;
+}

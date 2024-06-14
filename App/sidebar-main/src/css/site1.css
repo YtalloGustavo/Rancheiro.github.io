@@ -1,0 +1,123 @@
+/* Estilos gerais */
+
+.botoes {
+    display: vertical;
+    position: fixed;
+    top: 5%;
+    left: 85%;
+    padding: 15px 15;
+    margin-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 35px
+}
+
+.botoes1 {
+    display: vertical;
+    position: fixed;
+    top: 100%;
+    left: 69%;
+    padding: 15px 15;
+    margin-right: 5%;
+    margin-top: 7%;
+    margin-bottom: 35px
+}
+
+#relatorio-container {
+    bottom: -65%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.relatorio-conteudo {
+    margin: 20px auto;
+    padding: 60px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 2);
+}
+
+.relatorio-conteudo h1{
+    padding: 15px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos da tabela */
+.tabela-relatorio {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ccc; /* Cor de fundo da tabela */
+}
+
+.tabela-relatorio th,
+.tabela-relatorio td {
+    padding: 0.75rem;
+    border: 1px solid #ccc; /* Cor da borda */
+    background-color: #f4f4f4; /* Tom de cinza para as células */
+}
+
+.tabela-relatorio th {
+    background-color: #888; /* Tom de cinza para o cabeçalho */
+    font-weight: bold;
+    color: #fff;
+}
+
+.tabela-relatorio tbody tr:nth-child(even) {
+    background-color: #e0e0e0; /* Tom de cinza alternativo para linhas pares */
+}
+
+.tabela-relatorio tbody tr:nth-child(odd) {
+    background-color: #d0d0d0; /* Tom de cinza alternativo para linhas ímpares */
+}
+
+/* Estilos da div .container-xl */
+.container-grande {
+    max-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ccc;
+}
+
+/* Estilos da div .bg-light */
+.fundo-claro {
+    background-color: #ccc;
+}
+
+/* Estilos da classe .mt-5 */
+.margem-topo-5 {
+    margin-top: 3rem;
+}
+
+/* Estilos da classe .mb-5 */
+.margem-baixo-5 {
+    margin-bottom: 3rem;
+}
+
+/* Estilos da borda genérica .border */
+.borda {
+    border: 1px solid #ccc;
+}
+
+/* Estilos da borda inferior .border-bottom */
+.borda-inferior {
+    border-bottom: 1px solid #ccc;
+}

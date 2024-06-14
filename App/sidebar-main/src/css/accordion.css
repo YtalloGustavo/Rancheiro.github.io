@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            min-height: 100vh;
+            background-color: #e3e9f7;
+            display: flex;
+            background-image: url('..\sidebar-main\src\images\background.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #3D3D3D;
+        }
+
+        #container {
+            display: flex;
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 30px;
+            width: 100%;
+            max-width: 500px;
+            margin: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .accordion {
+            width: 100%;
+            background-color: #556B2F; /* Verde Oliva */
+            border-radius: 8px;
+            padding: 12px;
+            cursor: pointer;
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+            color: #FFFFFF; /* Branco para contraste */
+        }
+
+        .accordion-header {
+            width: 100%;
+            border: none;
+            background-color: transparent;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 16px;
+            cursor: pointer;
+            color: #FFFFFF; /* Branco para contraste */
+        }
+
+        .accordion-header span {
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .accordion-body {
+            color: #FFFFFF; /* Branco para contraste */
+            font-size: 14px;
+            opacity: 0;
+            height: 0;
+            overflow: hidden;
+            transition: opacity .3s, height .3s;
+        }
+
+        .accordion-body.active {
+            height: auto;
+            opacity: 1;
+            padding: 5px 0;
+        }
+
+        .arrow {
+            transition: transform .2s linear;
+            color: #FFFFFF; /* Branco para contraste */
+        }
+
+        .accordion-header.active .arrow {
+            transform: rotate(180deg);
+        }

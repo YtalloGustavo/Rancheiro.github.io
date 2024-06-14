@@ -1,0 +1,10 @@
+.footer {
+    font-size: 15px;
+    position: fixed;
+    bottom: 0; /* ou um valor apropriado */
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1px; /* Adicione um padding para garantir que o texto não encoste na borda */
+    width: 90%; /* Ajuste conforme necessário */
+    text-align: center; /* Centralize o texto */
+}
